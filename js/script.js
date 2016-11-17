@@ -34,9 +34,9 @@ function changeFavicon() {
 
                 context.drawImage(source, 0, 0, size, size);
                 context.globalCompositeOperation = 'source-over';
-                context.drawImage(favicon, 16, 16, 16, 16);
-                link.href = canvas.toDataURL(); 
-            };            
+                context.drawImage(favicon, 12, 12, 20, 20);
+                link.href = canvas.toDataURL();
+            };
         }
     };
 }
